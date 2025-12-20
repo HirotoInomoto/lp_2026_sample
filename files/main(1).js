@@ -1,92 +1,114 @@
-import ENV from '../../env.js';
-/**
- * 最新のLPへのリダイレクトモーダルコンポーネント
- */
-class LatestLpModal extends HTMLElement {
-    constructor() {
-        super();
-        this.attachShadow({ mode: 'open' });
-    }
+import ENV from '../../../env.js';
+import CustomLinkHandler from './src/common/custom_link.js';
 
-    async connectedCallback() {
-        if (ENV.STAGE === 'local') return;
-        const htmlPath =
-            this.getAttribute('data-src') ||
-            '../../common/latest-lp-modal/template.html';
-        try {
-            const [lpInfo, content] = await Promise.all([
-                getLatestLpInfo(),
-                getTemplateContent(htmlPath),
-            ]);
-            if (!lpInfo) return;
+// 2026 LPは、まず2025の実装をベースに動く状態を作る（UI/DOMは2025と同一構造を前提）
+import { CalendarController } from './src/new_year_2025/components/calendar.js';
+import {
+    addSliderNextPrevBtn,
+    initializeSwiperFlow,
+} from './src/new_year_2025/components/flow.js';
+import { FormController } from './src/new_year_2025/components/form.js';
+import {
+    addSliderNextPrevBtnGraduate,
+    initializeSwiperFuture,
+    initializeSwiperGraduate,
+} from './src/new_year_2025/components/future.js';
+import { initializeSwiperAchieve } from './src/new_year_2025/components/intro-2.js';
+import { voiceTabChange } from './src/new_year_2025/components/voice.js';
+import { initializePastEventGallery } from './src/new_year_2026/components/past_event_gallery.js';
+import { initializeQanda } from './src/new_year_2026/components/qanda.js';
 
-            // 要素の取得
-            const button = content.querySelector('#button');
-            const mask = content.querySelector('#mask');
-            const box = content.querySelector('#box');
-            const title = content.querySelector('#title');
-            const closeBtn = content.querySelector('#close-btn');
+function initializeScheduleTabs() {
+    const root = document.querySelector('.schedule');
+    if (!root) return;
 
-            // イベントの登録
-            if (button && mask && box) {
-                closeBtn.addEventListener('click', () => {
-                    console.log('clicked');
-                    mask.style.display = 'none';
-                    box.style.display = 'none';
-                    this.remove();
-                });
-                mask.addEventListener('click', () => {
-                    mask.style.display = 'none';
-                    box.style.display = 'none';
-                    this.remove();
-                });
-            }
+    const tabs = Array.from(root.querySelectorAll('.schedule__tab'));
+    const panels = Array.from(root.querySelectorAll('.schedule__panel'));
+    if (tabs.length === 0 || panels.length === 0) return;
 
-            // 要素の内容を決定
-            if (title) title.innerHTML = lpInfo.message;
-            if (button)
-                button.href = `${lpInfo.url}?utm_source=past_lp&utm_medium=referral`;
-            // レンダリング
-            this.shadowRoot.appendChild(content);
-        } catch (error) {
-            console.error(error);
-        }
-    }
+    const activate = (key) => {
+        tabs.forEach((btn) => {
+            const isActive = btn.dataset.scheduleTab === key;
+            btn.classList.toggle('is-active', isActive);
+            btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+            btn.tabIndex = isActive ? 0 : -1;
+        });
+
+        panels.forEach((panel) => {
+            const isActive = panel.dataset.schedulePanel === key;
+            panel.classList.toggle('is-active', isActive);
+        });
+    };
+
+    tabs.forEach((btn) => {
+        btn.addEventListener('click', () => {
+            const key = btn.dataset.scheduleTab;
+            if (!key) return;
+            activate(key);
+        });
+    });
 }
 
-customElements.define('latest-lp-modal', LatestLpModal);
+document.addEventListener('DOMContentLoaded', () => {
+    // カスタムリンク（data-custom-link）対応
+    new CustomLinkHandler().applyLinks();
 
-/**
- *  テンプレートを取得する
- * @param {string} htmlPath
- * @returns {Promise<Node>}
- */
-async function getTemplateContent(htmlPath) {
-    const response = await fetch(htmlPath);
-    if (!response.ok) throw new Error(`Failed to load ${htmlPath}`);
-    const htmlText = await response.text();
-    const template = document.createElement('template');
-    template.innerHTML = htmlText;
-    const content = template.content.cloneNode(true);
-    return content;
-}
+    // 開催日程タブ（2026用）: 他の初期化が失敗しても動くよう先に実行
+    initializeScheduleTabs();
 
-/**
- * @typedef {Object} LpInfo
- * @property {string} [url]
- * @property {string} [message]
- */
-/**
- *  lpモーダルに関するデータをweb本体から取得する
- * @returns {Promise<LpInfo | null>}
- */
-async function getLatestLpInfo() {
-    const response = await fetch(ENV.API_URL + '/lp/redirect-modal');
-    if (!response.ok) throw new Error(`Failed to load ${ENV.API_URL}`);
-    const data = await response.json();
-    const rowUrl = `${window.location.origin}${window.location.pathname}`;
-    if (rowUrl === data.url) {
-        return null;
+    // 2025の挙動を踏襲（必要になったら順次2026側に移植して差分を作る）
+    // flowのDOMが2026用に差し替わる可能性があるため、存在する場合のみ実行
+    if (document.getElementById('flow__past_event_photo')) {
+        initializeSwiperFlow();
+        addSliderNextPrevBtn();
     }
-    return data;
-}
+
+    // voice: DOMがある場合のみ実行
+    if (
+        document.querySelector('.voice__header--parent') &&
+        document.querySelector('.voice__header--student') &&
+        document.querySelector('.voice__content__box--parent') &&
+        document.querySelector('.voice__content__box--student')
+    ) {
+        let voiceTabNum = 0;
+        voiceTabNum = voiceTabChange(voiceTabNum);
+    }
+
+    // future: DOMがある場合のみ実行
+    if (document.querySelector('.future__slide__wrapper')) {
+        initializeSwiperFuture();
+    }
+    if (document.querySelector('.future__graduate__slide__wrapper')) {
+        initializeSwiperGraduate();
+    }
+    if (
+        document.querySelector('.graduate_swiper-button-next') &&
+        document.querySelector('.graduate_swiper-button-prev')
+    ) {
+        addSliderNextPrevBtnGraduate();
+    }
+    // intro-2 のDOMが2026用に差し替わるため、存在する場合のみ実行
+    if (document.querySelector('.intro-2__content__achieve__image__list')) {
+        initializeSwiperAchieve();
+    }
+
+    // past_event ギャラリー（2026用）
+    initializePastEventGallery();
+    // Q&A（2026用）
+    initializeQanda();
+
+    // form: DOMがある場合のみ実行（#form を削除する運用にも対応）
+    if (document.getElementById('form')) {
+        new FormController();
+    }
+    // calendarのDOMが2026用に差し替わる可能性があるため、存在する場合のみ実行
+    if (document.getElementById('calendar')) {
+        new CalendarController();
+    }
+
+    // デバッグ用（必要なら有効化）
+    if (false) {
+        console.log(ENV.STAGE);
+        console.log(ENV.API_URL);
+    }
+});

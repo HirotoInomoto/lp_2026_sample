@@ -1,0 +1,530 @@
+[
+  {
+    "id": 1,
+    "title": "ChatGPTでゲームを作ろう！・京大見学ツアー",
+    "schoolName": "京大本校",
+    "startTime": "2025-02-09T14:00:00",
+    "endTime": "2025-02-09T16:30:00",
+    "isTrial": false
+  },
+  {
+    "id": 2,
+    "title": "自動で情報を集める！",
+    "schoolName": "京大本校",
+    "startTime": "2025-02-24T14:00:00",
+    "endTime": "2025-02-24T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 3,
+    "title": "暗号の世界を体験！・京大見学ツアー",
+    "schoolName": "京大本校",
+    "startTime": "2025-03-20T14:00:00",
+    "endTime": "2025-03-20T16:30:00",
+    "isTrial": false
+  },
+  {
+    "id": 4,
+    "title": "シューティングゲームを完成させよう！",
+    "schoolName": "京大本校",
+    "startTime": "2025-03-23T10:00:00",
+    "endTime": "2025-03-23T12:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 5,
+    "title": "横スクロールゲームを完成させよう！",
+    "schoolName": "京大本校",
+    "startTime": "2025-03-23T14:00:00",
+    "endTime": "2025-03-23T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 6,
+    "title": "ChatGPTでゲームを作ろう！",
+    "schoolName": "梅田校",
+    "startTime": "2025-02-11T14:00:00",
+    "endTime": "2025-02-11T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 7,
+    "title": "横スクロールゲームを完成させよう！",
+    "schoolName": "梅田校",
+    "startTime": "2025-03-22T14:00:00",
+    "endTime": "2025-03-22T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 8,
+    "title": "シューティングゲームを完成させよう！",
+    "schoolName": "梅田校",
+    "startTime": "2025-03-23T14:00:00",
+    "endTime": "2025-03-23T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 9,
+    "title": "ChatGPTでゲームを作ろう！（知るカフェ東大本郷前にて開催）",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-02-09T14:00:00",
+    "endTime": "2025-02-09T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 10,
+    "title": "ChatGPTでゲームを作ろう！",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-02-11T14:00:00",
+    "endTime": "2025-02-11T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 11,
+    "title": "暗号の世界を体験！・東大見学ツアー（知るカフェ東大本郷前にて開催）",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-03-20T14:00:00",
+    "endTime": "2025-03-20T16:30:00",
+    "isTrial": false
+  },
+  {
+    "id": 12,
+    "title": "シューティングゲームを完成させよう！",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-03-22T14:00:00",
+    "endTime": "2025-03-22T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 13,
+    "title": "横スクロールゲームを完成させよう！",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-03-23T14:00:00",
+    "endTime": "2025-03-23T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 14,
+    "title": "ChatGPTでゲームを作ろう！",
+    "schoolName": "横浜校",
+    "startTime": "2025-02-08T14:00:00",
+    "endTime": "2025-02-08T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 15,
+    "title": "横スクロールゲームを完成させよう！",
+    "schoolName": "横浜校",
+    "startTime": "2025-03-22T14:00:00",
+    "endTime": "2025-03-22T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 16,
+    "title": "シューティングゲームを完成させよう！",
+    "schoolName": "横浜校",
+    "startTime": "2025-03-23T14:00:00",
+    "endTime": "2025-03-23T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 17,
+    "title": "ChatGPTでゲームを作ろう！",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-02-11T14:00:00",
+    "endTime": "2025-02-11T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 18,
+    "title": "自動で情報を集める！",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-02-24T14:00:00",
+    "endTime": "2025-02-24T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 19,
+    "title": "横スクロールゲームを完成させよう！",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-03-23T10:00:00",
+    "endTime": "2025-03-23T12:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 20,
+    "title": "シューティングゲームを完成させよう！",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-03-29T14:00:00",
+    "endTime": "2025-03-29T16:00:00",
+    "isTrial": false
+  },
+  {
+    "id": 21,
+    "title": "無料体験会",
+    "schoolName": "京大本校",
+    "startTime": "2025-02-02T11:00:00",
+    "endTime": "2025-02-02T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 22,
+    "title": "無料体験会",
+    "schoolName": "京大本校",
+    "startTime": "2025-02-16T11:00:00",
+    "endTime": "2025-02-16T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 23,
+    "title": "無料体験会",
+    "schoolName": "京大本校",
+    "startTime": "2025-03-01T14:00:00",
+    "endTime": "2025-03-01T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 24,
+    "title": "無料体験会",
+    "schoolName": "京大本校",
+    "startTime": "2025-03-09T11:00:00",
+    "endTime": "2025-03-09T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 25,
+    "title": "無料体験会",
+    "schoolName": "京大本校",
+    "startTime": "2025-03-16T12:30:00",
+    "endTime": "2025-03-16T13:30:00",
+    "isTrial": true
+  },
+  {
+    "id": 26,
+    "title": "無料体験会",
+    "schoolName": "京大本校",
+    "startTime": "2025-03-30T14:00:00",
+    "endTime": "2025-03-30T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 27,
+    "title": "無料体験会",
+    "schoolName": "京大本校",
+    "startTime": "2025-04-13T14:00:00",
+    "endTime": "2025-04-13T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 28,
+    "title": "無料体験会",
+    "schoolName": "梅田校",
+    "startTime": "2025-02-02T11:00:00",
+    "endTime": "2025-02-02T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 29,
+    "title": "無料体験会",
+    "schoolName": "梅田校",
+    "startTime": "2025-02-09T11:00:00",
+    "endTime": "2025-02-09T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 30,
+    "title": "無料体験会",
+    "schoolName": "梅田校",
+    "startTime": "2025-02-16T11:00:00",
+    "endTime": "2025-02-16T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 31,
+    "title": "無料体験会",
+    "schoolName": "梅田校",
+    "startTime": "2025-02-23T11:00:00",
+    "endTime": "2025-02-23T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 32,
+    "title": "無料体験会",
+    "schoolName": "梅田校",
+    "startTime": "2025-03-02T11:00:00",
+    "endTime": "2025-03-02T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 33,
+    "title": "無料体験会",
+    "schoolName": "梅田校",
+    "startTime": "2025-03-09T11:00:00",
+    "endTime": "2025-03-09T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 34,
+    "title": "無料体験会",
+    "schoolName": "梅田校",
+    "startTime": "2025-03-16T11:00:00",
+    "endTime": "2025-03-16T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 35,
+    "title": "無料体験会",
+    "schoolName": "梅田校",
+    "startTime": "2025-03-30T11:00:00",
+    "endTime": "2025-03-30T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 36,
+    "title": "無料体験会",
+    "schoolName": "梅田校",
+    "startTime": "2025-04-06T11:00:00",
+    "endTime": "2025-04-06T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 37,
+    "title": "無料体験会",
+    "schoolName": "梅田校",
+    "startTime": "2025-04-13T11:00:00",
+    "endTime": "2025-04-13T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 38,
+    "title": "無料体験会",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-02-02T11:00:00",
+    "endTime": "2025-02-02T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 39,
+    "title": "無料体験会",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-02-16T11:00:00",
+    "endTime": "2025-02-16T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 40,
+    "title": "無料体験会",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-02-23T12:30:00",
+    "endTime": "2025-02-23T13:30:00",
+    "isTrial": true
+  },
+  {
+    "id": 41,
+    "title": "無料体験会",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-03-02T11:00:00",
+    "endTime": "2025-03-02T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 42,
+    "title": "無料体験会",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-03-09T11:00:00",
+    "endTime": "2025-03-09T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 43,
+    "title": "無料体験会",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-03-16T12:30:00",
+    "endTime": "2025-03-16T13:30:00",
+    "isTrial": true
+  },
+  {
+    "id": 44,
+    "title": "無料体験会",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-03-30T11:00:00",
+    "endTime": "2025-03-30T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 45,
+    "title": "無料体験会",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-04-06T11:00:00",
+    "endTime": "2025-04-06T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 46,
+    "title": "無料体験会",
+    "schoolName": "東京飯田橋校",
+    "startTime": "2025-04-13T11:00:00",
+    "endTime": "2025-04-13T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 47,
+    "title": "無料体験会",
+    "schoolName": "横浜校",
+    "startTime": "2025-02-02T11:00:00",
+    "endTime": "2025-02-02T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 48,
+    "title": "無料体験会",
+    "schoolName": "横浜校",
+    "startTime": "2025-02-09T11:00:00",
+    "endTime": "2025-02-09T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 49,
+    "title": "無料体験会",
+    "schoolName": "横浜校",
+    "startTime": "2025-02-16T11:00:00",
+    "endTime": "2025-02-16T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 50,
+    "title": "無料体験会",
+    "schoolName": "横浜校",
+    "startTime": "2025-02-23T11:00:00",
+    "endTime": "2025-02-23T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 51,
+    "title": "無料体験会",
+    "schoolName": "横浜校",
+    "startTime": "2025-03-02T11:00:00",
+    "endTime": "2025-03-02T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 52,
+    "title": "無料体験会",
+    "schoolName": "横浜校",
+    "startTime": "2025-03-09T11:00:00",
+    "endTime": "2025-03-09T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 53,
+    "title": "無料体験会",
+    "schoolName": "横浜校",
+    "startTime": "2025-03-16T11:00:00",
+    "endTime": "2025-03-16T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 54,
+    "title": "無料体験会",
+    "schoolName": "横浜校",
+    "startTime": "2025-03-30T11:00:00",
+    "endTime": "2025-03-30T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 55,
+    "title": "無料体験会",
+    "schoolName": "横浜校",
+    "startTime": "2025-04-06T11:00:00",
+    "endTime": "2025-04-06T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 56,
+    "title": "無料体験会",
+    "schoolName": "横浜校",
+    "startTime": "2025-04-13T11:00:00",
+    "endTime": "2025-04-13T12:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 57,
+    "title": "無料体験会",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-02-02T14:00:00",
+    "endTime": "2025-02-02T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 58,
+    "title": "無料体験会",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-02-09T14:00:00",
+    "endTime": "2025-02-09T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 59,
+    "title": "無料体験会",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-02-16T14:00:00",
+    "endTime": "2025-02-16T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 60,
+    "title": "無料体験会",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-02-23T14:00:00",
+    "endTime": "2025-02-23T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 61,
+    "title": "無料体験会",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-03-02T14:00:00",
+    "endTime": "2025-03-02T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 62,
+    "title": "無料体験会",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-03-09T14:00:00",
+    "endTime": "2025-03-09T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 63,
+    "title": "無料体験会",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-03-16T14:00:00",
+    "endTime": "2025-03-16T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 64,
+    "title": "無料体験会",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-03-30T14:00:00",
+    "endTime": "2025-03-30T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 65,
+    "title": "無料体験会",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-04-06T14:00:00",
+    "endTime": "2025-04-06T15:00:00",
+    "isTrial": true
+  },
+  {
+    "id": 66,
+    "title": "無料体験会",
+    "schoolName": "秋葉原校",
+    "startTime": "2025-04-13T14:00:00",
+    "endTime": "2025-04-13T15:00:00",
+    "isTrial": true
+  }
+]

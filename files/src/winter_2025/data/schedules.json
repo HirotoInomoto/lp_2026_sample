@@ -1,0 +1,496 @@
+[
+  {
+    "id": "91e64c4f-9418-4e68-9188-539f56155938",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-11-09",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "15:00",
+      "endAt": "16:00"
+    },
+    "schoolCode": "kyoto",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "2aa382b4-e2a8-4ffc-8c93-2ee40c8ec8d3",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-11-15",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "13:00",
+      "endAt": "14:00"
+    },
+    "schoolCode": "kyoto",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "e26a9e48-b481-4166-96cc-0e30a8881b1c",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-11-16",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "11:00",
+      "endAt": "12:00"
+    },
+    "schoolCode": "umeda",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "517e1e67-b76b-4dbe-b4ee-aec18394d93f",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-11-29",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "11:00",
+      "endAt": "12:00"
+    },
+    "schoolCode": "umeda",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "69327dd8-545d-4c88-bd6a-99952feb2738",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-11-29",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "15:00",
+      "endAt": "16:00"
+    },
+    "schoolCode": "yokohama",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "ca94a212-ca36-487c-8578-0c244e9e59b4",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-11-30",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "12:00",
+      "endAt": "13:00"
+    },
+    "schoolCode": "iidabashi",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "9afad30a-bd02-41fd-a224-0d1a032d6037",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-11-30",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "15:00",
+      "endAt": "16:00"
+    },
+    "schoolCode": "kyoto",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "e66163b7-31a3-4bba-9fea-6afce7ceb987",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-12-06",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "13:00",
+      "endAt": "14:00"
+    },
+    "schoolCode": "kyoto",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "279ff776-df5f-439a-aebc-d391aadbdda8",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-12-06",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "15:00",
+      "endAt": "16:00"
+    },
+    "schoolCode": "yokohama",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "0cb4392d-9da6-4c08-bc70-3392588bdbbb",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-12-07",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "12:00",
+      "endAt": "13:00"
+    },
+    "schoolCode": "iidabashi",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "f2ef2b9b-f6c3-4e1d-90b5-0d03e4c34b03",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-12-13",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "15:00",
+      "endAt": "16:00"
+    },
+    "schoolCode": "yokohama",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "d6817a8c-50d1-4fe0-8015-66711e9f87d5",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-12-14",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "11:00",
+      "endAt": "12:00"
+    },
+    "schoolCode": "umeda",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "206bb7fd-dd82-4415-8d9f-e75b8137b120",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-12-14",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "12:00",
+      "endAt": "13:00"
+    },
+    "schoolCode": "iidabashi",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "e555ec5e-d8a5-4334-8995-2699908d140b",
+    "title": "無料体験会",
+    "date": {
+      "startAt": "2025-12-14",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "15:00",
+      "endAt": "16:00"
+    },
+    "schoolCode": "kyoto",
+    "tags": [
+      "初心者向け",
+      "親子"
+    ]
+  },
+  {
+    "id": "d06a49a6-412e-4c66-b2ee-7d34eefa34a7",
+    "title": "Pythonマスター講座",
+    "date": {
+      "startAt": "2025-12-20",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "kyoto",
+    "tags": [
+      "基礎講座"
+    ]
+  },
+  {
+    "id": "af4d069f-b401-406c-a9e5-78a11c42beb8",
+    "title": "Pythonマスター講座",
+    "date": {
+      "startAt": "2025-12-20",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "umeda",
+    "tags": [
+      "基礎講座"
+    ]
+  },
+  {
+    "id": "ca4447fc-8a1a-435a-8f38-9df10eb99b17",
+    "title": "Pythonマスター講座",
+    "date": {
+      "startAt": "2025-12-20",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "iidabashi",
+    "tags": [
+      "基礎講座"
+    ]
+  },
+  {
+    "id": "cc25d54d-a8e4-45aa-b697-43db6f410e18",
+    "title": "タイピングゲームを作ろう！",
+    "date": {
+      "startAt": "2025-12-20",
+      "endAt": "2025-12-21"
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "yokohama",
+    "tags": [
+      "ゲーム"
+    ]
+  },
+  {
+    "id": "d755c544-4b73-452d-b402-4c67bc936ad4",
+    "title": "LINEBotで196言語同時通訳アプリ作成",
+    "date": {
+      "startAt": "2025-12-21",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "10:00",
+      "endAt": "17:00"
+    },
+    "schoolCode": "kyoto",
+    "tags": [
+      "LINEBot"
+    ]
+  },
+  {
+    "id": "f86ff1ba-0135-4c6a-aa09-8a98d25511f5",
+    "title": "LINEBotで196言語同時通訳アプリ作成",
+    "date": {
+      "startAt": "2025-12-21",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "10:00",
+      "endAt": "17:00"
+    },
+    "schoolCode": "iidabashi",
+    "tags": [
+      "LINEBot"
+    ]
+  },
+  {
+    "id": "59b4535c-8b0e-43cb-9fb1-7e09c233c59f",
+    "title": "迷路攻略AIを作ろう！",
+    "date": {
+      "startAt": "2025-12-21",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "umeda",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": "8d33c153-807e-4b37-83aa-7ee9dc481af0",
+    "title": "タイピングゲームを作ろう！",
+    "date": {
+      "startAt": "2025-12-27",
+      "endAt": "2025-12-28"
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "kyoto",
+    "tags": [
+      "ゲーム"
+    ]
+  },
+  {
+    "id": "6c960c2e-a619-48da-96dc-41b85172de97",
+    "title": "タイピングゲームを作ろう！",
+    "date": {
+      "startAt": "2025-12-27",
+      "endAt": "2025-12-28"
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "umeda",
+    "tags": [
+      "ゲーム"
+    ]
+  },
+  {
+    "id": "ea2c93e7-8e01-4f8f-af40-3ca216443870",
+    "title": "リズムの達人",
+    "date": {
+      "startAt": "2025-12-27",
+      "endAt": "2025-12-28"
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "iidabashi",
+    "tags": [
+      "ゲーム"
+    ]
+  },
+  {
+    "id": "48738112-6463-4452-8141-f40c28528baa",
+    "title": "Pythonマスター講座",
+    "date": {
+      "startAt": "2025-12-27",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "yokohama",
+    "tags": [
+      "基礎講座"
+    ]
+  },
+  {
+    "id": "5f1c25e9-a8dd-43be-b6e9-701869080127",
+    "title": "LINEBotで196言語同時通訳アプリ作成",
+    "date": {
+      "startAt": "2025-12-28",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "10:00",
+      "endAt": "17:00"
+    },
+    "schoolCode": "yokohama",
+    "tags": [
+      "LINEBot"
+    ]
+  },
+  {
+    "id": "65dd63cd-5c92-4194-b08f-42cdc1404bdc",
+    "title": "タイピングゲームを作ろう！",
+    "date": {
+      "startAt": "2026-01-03",
+      "endAt": "2026-01-04"
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "iidabashi",
+    "tags": [
+      "ゲーム"
+    ]
+  },
+  {
+    "id": "4e46146e-0840-40f2-832b-fcc1eac0f7f2",
+    "title": "迷路攻略AIを作ろう！",
+    "date": {
+      "startAt": "2026-01-03",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "yokohama",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": "48d087e2-e2c4-404a-acb2-3b9460537902",
+    "title": "LINEBotで196言語同時通訳アプリ作成",
+    "date": {
+      "startAt": "2026-01-04",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "10:00",
+      "endAt": "17:00"
+    },
+    "schoolCode": "umeda",
+    "tags": [
+      "LINEBot"
+    ]
+  },
+  {
+    "id": "63ea5380-4245-4e03-bb1d-ad586debfdd9",
+    "title": "迷路攻略AIを作ろう！",
+    "date": {
+      "startAt": "2026-01-04",
+      "endAt": null
+    },
+    "time": {
+      "startAt": "14:00",
+      "endAt": "18:30"
+    },
+    "schoolCode": "kyoto",
+    "tags": [
+      "AI"
+    ]
+  }
+]

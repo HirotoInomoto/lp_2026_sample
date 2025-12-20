@@ -1,0 +1,30 @@
+[
+  {
+    "id": "kyoto",
+    "name": "京大本校",
+    "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d408.3916654969378!2d135.7784950852197!3d35.02839440000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109202dca3be5%3A0x47f35e4463f2494d!2sBeEngineer!5e0!3m2!1sja!2sjp!4v1746680936939!5m2!1sja!2sjp",
+    "address": "〒606-8301\n京都府京都市左京区吉田泉殿町1-34\nダイショウ百万遍ビル1・2F",
+    "access": "【交通アクセス】\n出町柳駅から徒歩10分駐輪場あり"
+  },
+  {
+    "id": "umeda",
+    "name": "梅田校",
+    "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.9511288217213!2d135.4945528120727!3d34.70641257280478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7bade6f89df%3A0x8766069fb44a5918!2zQmVFbmdpbmVlciDmooXnlLDmoKEg5Lit6auY55Sf44Gu44Gf44KB44Gu44OX44Ot44Kw44Op44Of44Oz44Kw5pWZ5a6k!5e0!3m2!1sja!2sjp!4v1746682103038!5m2!1sja!2sjp",
+    "address": "〒530-0012\n大阪府大阪市北区芝田1-4-14\n芝田町ビル 5階",
+    "access": "【交通アクセス】\n阪急梅田駅(茶屋町駅)より北へ1分\nJR大阪駅・地下鉄梅田駅(北口)5番出口北へ3分"
+  },
+  {
+    "id": "iidabashi",
+    "name": "飯田橋校",
+    "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1166738270354!2d139.74175991210748!3d35.69874637246737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d0049fe7617%3A0xabc5a8acb84acc89!2zQmVFbmdpbmVlciDmnbHkuqzpo6_nlLDmqYvmoKEg5Lit6auY55Sf44Gu44Gf44KB44Gu44OX44Ot44Kw44Op44Of44Oz44Kw5pWZ5a6k!5e0!3m2!1sja!2sjp!4v1746682174969!5m2!1sja!2sjp",
+    "address": "〒102-0071\n東京都千代田区富士見2丁目12−13\nフィル・パーク Kagulab.IIDABASHI",
+    "access": "【交通アクセス】\n飯田橋駅（メトロ・JR）から徒歩5分"
+  },
+  {
+    "id": "yokohama",
+    "name": "横浜校",
+    "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6499.999681541813!2d139.62828891209884!3d35.45479837254725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185d0050093495%3A0x8a32f66ecd6ef33c!2zQmVFbmdpbmVlciDmqKrmtZzmoKEg5Lit6auY55Sf44Gu44Gf44KB44Gu44OX44Ot44Kw44Op44Of44Oz44Kw5pWZ5a6k!5e0!3m2!1sja!2sjp!4v1746682233429!5m2!1sja!2sjp",
+    "address": "〒220-0012\n神奈川県横浜市西区みなとみらい 2-2-1\n横浜ランドマークタワー 14F",
+    "access": "【交通アクセス】\nみなとみらい駅から徒歩2分\n桜木町駅から徒歩5分"
+  }
+]
